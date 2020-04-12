@@ -35,4 +35,4 @@ while True:
         for message in messages:
             print_message(message)
 
-    time.sleep(2)
+    time.sleep(4)
