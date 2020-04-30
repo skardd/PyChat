@@ -18,7 +18,7 @@ def print_message(message):
     text = message['text']
 
     dt = datetime.datetime.fromtimestamp(message_time)
-    dt_beauty = dt.strftime('%H:%M:%S')
+    dt_beauty = dt.strftime('%H:%M')
 
     print(dt_beauty, username)
     print(text)
